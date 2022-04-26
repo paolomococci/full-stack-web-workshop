@@ -25,6 +25,7 @@ dependencies {
 	// OpenAPI
 	//compileOnly 'org.openapitools:openapi-generator-cli:6.0.0-beta'
 	//implementation 'io.swagger.core.v3:swagger-annotations:2.2.0'
+	//implementation 'io.springfox:springfox-oas:3.0.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 }
