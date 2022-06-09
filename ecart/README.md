@@ -40,6 +40,12 @@ ng g service services/Ecart
 ng g c components/cart
 ```
 
+## I create the component toolbar
+
+```
+ng g c components/toolbar
+```
+
 ## now I boot into development mode this example
 
 ```shell
