@@ -22,10 +22,16 @@ npm install
 ng add @angular/material
 ```
 
-## I create the component for the element in question
+## I create the component
 
 ```shell
 ng g c components/kind
+```
+
+## I create the interface
+
+```shell
+ng g interface models/Product --type=model
 ```
 
 ## now I boot into development mode this example
