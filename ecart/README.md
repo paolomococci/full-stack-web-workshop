@@ -64,6 +64,12 @@ ng g c components/item-detail
 ng g c components/item-list
 ```
 
+## I create the component item-shipment
+
+```
+ng g c components/item-shipment
+```
+
 ## now I boot into development mode this example
 
 ```shell
