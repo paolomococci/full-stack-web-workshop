@@ -22,16 +22,22 @@ npm install
 ng add @angular/material
 ```
 
-## I create the component
+## I create the component kind
 
 ```shell
 ng g c components/kind
 ```
 
-## I create the interface
+## I create the interface Product
 
 ```shell
 ng g interface models/Product --type=model
+```
+
+## I create the service Ecart
+
+```shell
+ng g service services/Ecart
 ```
 
 ## now I boot into development mode this example
