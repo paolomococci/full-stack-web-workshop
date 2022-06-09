@@ -58,6 +58,12 @@ ng g c components/item-alert
 ng g c components/item-detail
 ```
 
+## I create the component item-list
+
+```
+ng g c components/item-list
+```
+
 ## now I boot into development mode this example
 
 ```shell
