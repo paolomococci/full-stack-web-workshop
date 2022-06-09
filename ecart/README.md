@@ -22,12 +22,6 @@ npm install
 ng add @angular/material
 ```
 
-## I create the component kind
-
-```shell
-ng g c components/kind
-```
-
 ## I create the interface Product
 
 ```shell
@@ -43,7 +37,7 @@ ng g service services/Ecart
 ## I create the component cart
 
 ```shell
-ng g component components/cart
+ng g c components/cart
 ```
 
 ## now I boot into development mode this example
