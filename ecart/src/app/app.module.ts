@@ -9,6 +9,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component'
 import { ItemAlertComponent } from './components/item-alert/item-alert.component'
 import { ItemDetailComponent } from './components/item-detail/item-detail.component'
 import { ItemListComponent } from './components/item-list/item-list.component'
+import { ItemShipmentComponent } from './components/item-shipment/item-shipment.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ItemListComponent } from './components/item-list/item-list.component'
     ToolbarComponent,
     ItemAlertComponent,
     ItemDetailComponent,
-    ItemListComponent
+    ItemListComponent,
+    ItemShipmentComponent
   ],
   imports: [
     BrowserModule,
