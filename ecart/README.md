@@ -52,6 +52,12 @@ ng g c components/toolbar
 ng g c components/item-alert
 ```
 
+## I create the component item-detail
+
+```
+ng g c components/item-detail
+```
+
 ## now I boot into development mode this example
 
 ```shell
