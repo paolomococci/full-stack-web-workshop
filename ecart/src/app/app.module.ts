@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { CartComponent } from './components/cart/cart.component'
 import { ToolbarComponent } from './components/toolbar/toolbar.component'
 import { ItemAlertComponent } from './components/item-alert/item-alert.component'
+import { ItemDetailComponent } from './components/item-detail/item-detail.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     CartComponent,
     ToolbarComponent,
-    ItemAlertComponent
+    ItemAlertComponent,
+    ItemDetailComponent
   ],
   imports: [
     BrowserModule,
