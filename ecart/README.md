@@ -40,6 +40,12 @@ ng g interface models/Product --type=model
 ng g service services/Ecart
 ```
 
+## I create the component cart
+
+```shell
+ng g component components/cart
+```
+
 ## now I boot into development mode this example
 
 ```shell
