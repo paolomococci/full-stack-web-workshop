@@ -36,6 +36,7 @@ testem.log
 /typings
 package-lock.json
 HELP.md
+LOG.md
 *.ico
 
 # System files
