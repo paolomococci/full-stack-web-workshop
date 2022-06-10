@@ -10,6 +10,7 @@ import { ItemAlertComponent } from './components/item-alert/item-alert.component
 import { ItemDetailComponent } from './components/item-detail/item-detail.component'
 import { ItemListComponent } from './components/item-list/item-list.component'
 import { ItemShipmentComponent } from './components/item-shipment/item-shipment.component'
+import { MatIconModule } from '@angular/material/icon'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ItemShipmentComponent } from './components/item-shipment/item-shipment.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
