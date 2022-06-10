@@ -1,5 +1,6 @@
 import {
   Component,
+  Input,
   OnInit
 } from '@angular/core'
 
@@ -9,6 +10,9 @@ import {
   styleUrls: ['./toolbar.component.sass']
 })
 export class ToolbarComponent implements OnInit {
+
+  @Input()
+  title!: string
 
   constructor() { }
 
