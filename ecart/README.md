@@ -70,6 +70,19 @@ ng g c components/item-list
 ng g c components/item-shipment
 ```
 
+## How to simulate requests, in development phase, HTTP requests to API back-ends
+
+For this application, at least at the beginning, I will need to simulate the request for data to the API back-ends.
+Therefore, I'm going to add one more dependency:
+
+```shell
+npm i angular-in-memory-web-api -f
+```
+
+Rightly, you will see warnings.
+
+The aforementioned library is useful in the early stages of development.
+
 ## now I boot into development mode this example
 
 ```shell
