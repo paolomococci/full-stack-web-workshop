@@ -19,7 +19,9 @@ export class EcartService {
 
   getShipmentPrices() {}
 
-  addToCart() {}
+  addToCart(product: Product) {
+
+  }
 
   emptyTheCart() {}
 }
