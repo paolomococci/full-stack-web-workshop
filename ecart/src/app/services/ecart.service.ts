@@ -13,7 +13,7 @@ export class EcartService {
     private http: HttpClient
   ) { }
 
-  getItems() {
+  getItems(): Product[] {
     return this.items
   }
 
@@ -23,5 +23,8 @@ export class EcartService {
     this.items.push(product)
   }
 
-  emptyTheCart() {}
+  emptyTheCart(): Product[] {
+    this.items = []
+    return this.items
+  }
 }
