@@ -29,6 +29,8 @@ import { ReactiveFormsModule } from '@angular/forms'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
     MatIconModule
   ],
   providers: [],
