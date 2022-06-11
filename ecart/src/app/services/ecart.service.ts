@@ -23,7 +23,7 @@ export class EcartService {
     return this.http.get<{type: string, price: number}[]>(this.path)
   }
 
-  addToCart(product: Product) {
+  addToCart(product: Product): void {
     this.items.push(product)
   }
 
