@@ -1,1 +1,10 @@
-<p>item-detail works!</p>
+<section>
+  <h3>item details</h3>
+</section>
+
+<section class="item" *ngIf="item">
+  <h4>{{ item.name }}</h4>
+  <p>{{ item.price | currency }}</p>
+  <p>{{ item.description }}</p>
+  <button type="button" (click)="addToCart(item)">add to bag</button>
+</section>
