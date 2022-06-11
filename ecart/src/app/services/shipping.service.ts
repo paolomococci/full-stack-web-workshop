@@ -20,4 +20,8 @@ export class ShippingService {
   push(shipment: Shipment): void {
     this.shipments.push(shipment)
   }
+
+  pop(): Shipment | undefined {
+    return this.shipments.pop()
+  }
 }
