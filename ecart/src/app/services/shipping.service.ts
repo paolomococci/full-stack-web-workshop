@@ -13,8 +13,12 @@ export class ShippingService {
     private http: HttpClient
   ) { }
 
-  get(): Shipment[] {
+  gets(): Shipment[] {
     return this.shipments
+  }
+
+  get(index: number): Shipment {
+    return this.shipments[index]
   }
 
   push(shipment: Shipment): void {
