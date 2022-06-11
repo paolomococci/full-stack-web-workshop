@@ -12,4 +12,12 @@ export class EcartService {
   constructor(
     private http: HttpClient
   ) { }
+
+  getItems() {}
+
+  getShipmentPrices() {}
+
+  addToCart() {}
+
+  emptyTheCart() {}
 }
