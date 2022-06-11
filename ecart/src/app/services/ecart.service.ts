@@ -20,7 +20,7 @@ export class EcartService {
   getShipmentPrices() {}
 
   addToCart(product: Product) {
-
+    this.items.push(product)
   }
 
   emptyTheCart() {}
