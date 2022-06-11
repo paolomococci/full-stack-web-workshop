@@ -17,7 +17,9 @@ export class EcartService {
     return this.items
   }
 
-  getShipmentPrices() {}
+  getShipmentPrices(): any {
+    return this.http.get<{type: string, price: number}[]>('/assets/shipment.json')
+  }
 
   addToCart(product: Product) {
     this.items.push(product)
