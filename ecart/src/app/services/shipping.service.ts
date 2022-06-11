@@ -1,9 +1,15 @@
 import { Injectable } from '@angular/core'
+import { HttpClient } from '@angular/common/http'
+import { Shipment } from '../models/shipment.model'
 
 @Injectable({
   providedIn: 'root'
 })
 export class ShippingService {
 
-  constructor() { }
+  shipments: Shipment[] = []
+
+  constructor(
+    private http: HttpClient
+  ) { }
 }
