@@ -12,6 +12,9 @@ import { ItemListComponent } from './components/item-list/item-list.component'
 import { ItemShipmentComponent } from './components/item-shipment/item-shipment.component'
 import { MatIconModule } from '@angular/material/icon'
 
+import { HttpClientModule } from '@angular/common/http'
+import { ReactiveFormsModule } from '@angular/forms'
+
 @NgModule({
   declarations: [
     AppComponent,
