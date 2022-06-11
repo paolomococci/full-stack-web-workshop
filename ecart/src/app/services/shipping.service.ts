@@ -13,7 +13,7 @@ export class ShippingService {
     private http: HttpClient
   ) { }
 
-  gets(): Shipment[] {
+  getAll(): Shipment[] {
     return this.shipments
   }
 
@@ -27,5 +27,9 @@ export class ShippingService {
 
   pop(): Shipment | undefined {
     return this.shipments.pop()
+  }
+
+  length(): number {
+    return this.shipments.length
   }
 }
