@@ -24,4 +24,11 @@ export class CartComponent implements OnInit {
 
   items: Product[] = this.ecartService.getItems()
 
+  checkoutForm: any = this.formBuilder.group(
+    {
+      name: '',
+      address: ''
+    }
+  )
+
 }
