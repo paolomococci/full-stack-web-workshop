@@ -1,1 +1,5 @@
-<p>item-alert works!</p>
+<section>
+  <p *ngIf="item && item.price > 15">
+    <button type="button" (click)="notify.emit()">send me a notification</button>
+  </p>
+</section>
