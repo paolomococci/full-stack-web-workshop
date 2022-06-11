@@ -12,4 +12,8 @@ export class ShippingService {
   constructor(
     private http: HttpClient
   ) { }
+
+  get(): Shipment[] {
+    return this.shipments
+  }
 }
