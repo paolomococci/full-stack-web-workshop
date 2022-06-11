@@ -7,6 +7,8 @@ import { Product } from 'src/app/models/product.model'
 })
 export class EcartService {
 
+  private path: string = '/assets/shipment.json'
+
   items: Product[] = []
 
   constructor(
@@ -18,7 +20,7 @@ export class EcartService {
   }
 
   getShipmentPrices(): any {
-    return this.http.get<{type: string, price: number}[]>('/assets/shipment.json')
+    return this.http.get<{type: string, price: number}[]>(this.path)
   }
 
   addToCart(product: Product) {
