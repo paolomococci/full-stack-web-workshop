@@ -89,6 +89,12 @@ The aforementioned library is useful in the early stages of development.
 ng g interface models/Shipment --type=model
 ```
 
+## I create the service Shipping
+
+```shell
+ng g service services/Shipping
+```
+
 ## now I boot into development mode this example
 
 ```shell
