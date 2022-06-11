@@ -7,5 +7,9 @@ import { Product } from 'src/app/models/product.model'
 })
 export class EcartService {
 
-  constructor() { }
+  items: Product[] = []
+
+  constructor(
+    private http: HttpClient
+  ) { }
 }
