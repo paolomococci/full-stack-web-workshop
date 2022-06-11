@@ -2,6 +2,10 @@ import {
   Component,
   OnInit
 } from '@angular/core'
+import { FormBuilder } from '@angular/forms'
+import { Product } from 'src/app/models/product.model'
+
+import { EcartService } from '../../services/ecart.service'
 
 @Component({
   selector: 'app-cart',
@@ -10,7 +14,10 @@ import {
 })
 export class CartComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private ecartService: EcartService,
+    private formBuilder: FormBuilder
+  ) { }
 
   ngOnInit(): void {
   }
