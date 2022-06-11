@@ -13,7 +13,9 @@ export class EcartService {
     private http: HttpClient
   ) { }
 
-  getItems() {}
+  getItems() {
+    return this.items
+  }
 
   getShipmentPrices() {}
 
