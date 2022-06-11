@@ -31,4 +31,10 @@ export class CartComponent implements OnInit {
     }
   )
 
+  onSubmit(): void {
+    this.items = this.ecartService.emptyTheCart()
+    console.log('order sent: ', this.checkoutForm.value)
+    this.checkoutForm.reset()
+  }
+
 }
