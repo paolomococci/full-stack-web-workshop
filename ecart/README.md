@@ -83,6 +83,12 @@ Rightly, you will see warnings.
 
 The aforementioned library is useful in the early stages of development.
 
+## I create the interface Shipment
+
+```shell
+ng g interface models/Shipment --type=model
+```
+
 ## now I boot into development mode this example
 
 ```shell
