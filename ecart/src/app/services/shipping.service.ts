@@ -16,4 +16,8 @@ export class ShippingService {
   get(): Shipment[] {
     return this.shipments
   }
+
+  push(shipment: Shipment): void {
+    this.shipments.push(shipment)
+  }
 }
