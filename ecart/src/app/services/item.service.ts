@@ -11,5 +11,7 @@ export class ItemService {
 
   items: Product[] = []
 
-  constructor() { }
+  constructor(
+    private http: HttpClient
+  ) { }
 }
