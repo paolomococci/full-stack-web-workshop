@@ -9,15 +9,17 @@ export class ItemService {
 
   private path: string = '/assets/items.json'
 
-  items: Product[] = []
-
   constructor(
     private http: HttpClient
   ) { }
 
-  getItems(): Product[] {
+  getItems(): any {
+    return this.http.get<Product[]>(this.path)
+  }
+
+  getItemArray(): Product[] {
     const temp = this.http.get<Product[]>(this.path)
     // todo
-    return this.items
+    return []
   }
 }
