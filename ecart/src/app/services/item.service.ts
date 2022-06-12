@@ -14,4 +14,10 @@ export class ItemService {
   constructor(
     private http: HttpClient
   ) { }
+
+  getItems(): Product[] {
+    const temp = this.http.get<Product[]>(this.path)
+    // todo
+    return this.items
+  }
 }
