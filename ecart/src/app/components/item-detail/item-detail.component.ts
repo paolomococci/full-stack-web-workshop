@@ -6,7 +6,7 @@ import { ActivatedRoute } from '@angular/router'
 
 import { EcartService } from './../../services/ecart.service'
 import { Product } from 'src/app/models/product.model'
-import { products } from 'src/persistence/product-list'
+import { ItemService } from './../../services/item.service'
 
 @Component({
   selector: 'app-item-detail',
@@ -15,17 +15,21 @@ import { products } from 'src/persistence/product-list'
 })
 export class ItemDetailComponent implements OnInit {
 
+  products: Product[] = this.itemService.getItemArray()
+
   item: Product | undefined
 
   constructor(
     private route: ActivatedRoute,
-    private ecartService: EcartService
+    private ecartService: EcartService,
+    private itemService: ItemService
   ) { }
 
   ngOnInit(): void {
     const routeParams = this.route.snapshot.paramMap
     const itemIdFromRoute = Number(routeParams.get('itemId'))
-    this.item = products.find(
+    console.log(this.products)
+    this.item = this.products.find(
       item => item.id === itemIdFromRoute
     )
   }
