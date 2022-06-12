@@ -2,7 +2,7 @@
   <h3 style="padding: 3rem">ITEMS:</h3>
 </section>
 
-<section class="item-list" *ngFor="let item of items">
+<section class="item-list" *ngFor="let item of items | async">
   <h4>
     <a [title]="item.name + ' details'" [routerLink]="['/items', item.id]">
       {{ item.name }}
