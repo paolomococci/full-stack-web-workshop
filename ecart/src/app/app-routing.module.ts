@@ -17,7 +17,7 @@ const routes: Routes = [
     component: ItemListComponent
   },
   {
-    path: 'items/itemId',
+    path: 'items/:itemId',
     component: ItemDetailComponent
   },
   {
@@ -27,6 +27,11 @@ const routes: Routes = [
   {
     path: 'shipment',
     component: ItemShipmentComponent
+  },
+  {
+    path: '**',
+    redirectTo: '/items',
+    pathMatch: 'full'
   },
 ]
 
