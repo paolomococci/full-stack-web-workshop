@@ -9,5 +9,7 @@ export class ItemService {
 
   private path: string = '/assets/items.json'
 
+  items: Product[] = []
+
   constructor() { }
 }
