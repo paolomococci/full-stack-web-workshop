@@ -6,6 +6,7 @@ import { FormBuilder } from '@angular/forms'
 import { Product } from 'src/app/models/product.model'
 
 import { EcartService } from '../../services/ecart.service'
+import { Customer } from 'src/app/models/customer.model'
 
 @Component({
   selector: 'app-cart',
