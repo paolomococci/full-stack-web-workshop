@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core'
 import { HttpClient } from '@angular/common/http'
 import { Product } from 'src/app/models/product.model'
+import { Shipment } from './../models/shipment.model'
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +21,7 @@ export class EcartService {
   }
 
   getShipmentPrices(): any {
-    return this.http.get<{type: string, price: number}[]>(this.path)
+    return this.http.get<Shipment[]>(this.path)
   }
 
   addToCart(product: Product): void {
