@@ -3,7 +3,7 @@ import {
   OnInit
 } from '@angular/core'
 
-import { products } from 'src/persistence/product-list'
+import { ItemService } from './../../services/item.service'
 
 @Component({
   selector: 'app-item-list',
@@ -12,9 +12,11 @@ import { products } from 'src/persistence/product-list'
 })
 export class ItemListComponent implements OnInit {
 
-  items = products
+  items: any = this.itemService.getItems()
 
-  constructor() { }
+  constructor(
+    private itemService: ItemService
+  ) { }
 
   ngOnInit(): void {
   }
