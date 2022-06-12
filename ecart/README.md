@@ -101,6 +101,12 @@ ng g service services/Shipping
 ng g service services/Item
 ```
 
+## I create the interface Customer
+
+```shell
+ng g interface models/Customer --type=model
+```
+
 ## now I boot into development mode this example
 
 ```shell
