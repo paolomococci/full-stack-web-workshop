@@ -1,7 +1,5 @@
 # ecart
 
-TODO: to review the selection of a single item in the list and the consequent display of the detail through the URI
-
 Angular version 14.0.0
 
 ## scaffolding
