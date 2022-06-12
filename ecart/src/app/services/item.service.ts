@@ -7,5 +7,7 @@ import { Product } from './../models/product.model'
 })
 export class ItemService {
 
+  private path: string = '/assets/items.json'
+
   constructor() { }
 }
