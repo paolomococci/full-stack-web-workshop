@@ -1,4 +1,6 @@
-# ecart-improved, app used as a template
+# ecart-improved
+
+TODO
 
 Angular version 14.0.0
 
