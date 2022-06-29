@@ -22,16 +22,17 @@ npm install
 ng add @angular/material
 ```
 
-## I create the component navigation-bar
+## now it's up to the components
 
 ```shell
-ng g @angular/material:navigation components/navigation-bar
-```
-
-## I create the main-content component
-
-```shell
-ng g c components/main-content
+ng g c components/main
+ng g c components/navbar
+ng g c components/cart
+ng g c components/toolbar
+ng g c components/item-alert
+ng g c components/item-detail
+ng g c components/item-list
+ng g c components/item-shipment
 ```
 
 ## I create the interfaces
@@ -48,17 +49,6 @@ ng g interface models/Customer --type=model
 ng g service services/Ecart
 ng g service services/Shipping
 ng g service services/Item
-```
-
-## now it's up to the components
-
-```shell
-ng g c components/cart
-ng g c components/toolbar
-ng g c components/item-alert
-ng g c components/item-detail
-ng g c components/item-list
-ng g c components/item-shipment
 ```
 
 ## How to simulate requests, in development phase, HTTP requests to API back-ends
