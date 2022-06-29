@@ -7,7 +7,7 @@ Angular version 14
 ## scaffolding
 
 ```shell
-ng new exercise -S -g --routing --style=sass
+ng new ecart-improved -S -g --routing --style=sass
 ```
 
 ### Or, if you already have this project ecart-improved, remember to type the following command inside the root directory of the same:
