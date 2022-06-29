@@ -51,6 +51,12 @@ ng g service services/Shipping
 ng g service services/Item
 ```
 
+## Or, you can use the simple script bash named generate.sh, making it momentarily executable, generating everything you need in one go
+
+```shell
+./script/generate.sh
+```
+
 ## How to simulate requests, in development phase, HTTP requests to API back-ends
 
 For this application, at least at the beginning, I will need to simulate the request for data to the API back-ends.
