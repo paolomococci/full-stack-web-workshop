@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core'
 import { RouterModule, Routes } from '@angular/router'
 
-import { KindComponent } from './components/kind/kind.component'
-
 const routes: Routes = [
+  /*
   {
     path: '',
-    redirectTo: '/kind',
+    redirectTo: '/todo',
     pathMatch: 'full'
   },
   {
-    path: 'kind',
-    component: KindComponent
+    path: 'todo',
+    component: TodoComponent
   },
+  */
 ]
 
 @NgModule({
