@@ -1,1 +1,12 @@
-<p>item-shipment works!</p>
+<section>
+  <h3>shipment prices</h3>
+</section>
+
+<section class="shipment-item" *ngFor="let shipment of shipmentCosts | async">
+  <span>
+    {{ shipment.type }}
+  </span>
+  <span>
+    {{ shipment.price | currency }}
+  </span>
+</section>
