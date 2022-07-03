@@ -3,7 +3,7 @@ import {
   OnInit
 } from '@angular/core'
 
-import { EcartService } from 'src/app/services/ecart.service';
+import { EcartService } from 'src/app/services/ecart.service'
 
 @Component({
   selector: 'app-item-shipment',
