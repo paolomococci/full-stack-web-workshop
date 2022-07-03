@@ -1,1 +1,16 @@
-<p>item-list works!</p>
+<section>
+  <h3 style="padding: 3rem">ITEMS:</h3>
+</section>
+
+<section class="item-list" *ngFor="let item of items | async">
+  <h4>
+    <a [title]="item.name + ' details'" [routerLink]="['/items', item.id]">
+      {{ item.name }}
+    </a>
+  </h4>
+  <p *ngIf="item.description">
+    description: {{ item.description }}
+  </p>
+  <button class="item-button" type="button" (click)="share()">share</button>
+  <app-item-alert [item]="item" (notify)="onNotify()"></app-item-alert>
+</section>
