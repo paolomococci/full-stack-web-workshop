@@ -1,6 +1,6 @@
 # ecart
 
-Angular version 14.2.0
+Angular version 14.2.1
 
 ## scaffolding
 
