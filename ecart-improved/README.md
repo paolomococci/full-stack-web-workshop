@@ -2,7 +2,7 @@
 
 TODO
 
-Angular version 14.2.3
+Angular version 14.2.7
 
 ## scaffolding
 
