@@ -1,13 +1,13 @@
 # ecart
 
-Angular version 14.2.3
+Angular version 14.2.7
 
 ## scaffolding
 
 This is an alternative method, if you do not intend to install the latest version globally, at least not for the moment.
 
 ```shell
-npx -p @angular/cli@14.2.3 ng new ecart -S -g --routing --style=sass
+npx -p @angular/cli@14.2.7 ng new ecart -S -g --routing --style=sass
 ```
 
 ### Or, if you already have this project ecart, remember to type the following command inside the root directory of the same:
